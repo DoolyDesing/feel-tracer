@@ -1,0 +1,85 @@
+
+body {
+    background-color: #09090A;
+}
+
+/*header*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 11vh 8vw 6vh 8vw 
+}
+
+.logo {
+    width: 27vw;
+}
+
+.addBtn {
+    width: 15vw;
+    height: 6vh;
+    border-radius: 8px;
+    background: #09090A;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 20px */
+    border: 1px solid #8B5CF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: 2vh 2vw 2vh 2vw;
+}
+
+
+.plus {
+    margin-right: 6%;
+}
+
+/*main*/
+
+.container {
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 2vw;
+    grid-row-gap: 50px;
+    display: grid;
+}
+
+
+
+
+.moodIcon{
+    margin-bottom: 4.3vh;
+    height: 5vw;
+}
+
+.moodIcon:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.moodBtn {
+    width: 5vw;
+    height: 5vw;
+    margin-bottom: 4.7vh;
+
+    border-radius: 8px;
+    border: 2px solid var(--tailwind-zinc-800, #27272A);
+    background: var(--tailwind-zinc-900, #18181B);
+}
+
+.moodBtn:hover {
+    border-radius: 8px;
+    border: 2px solid var(--tailwind-zinc-700, #3F3F46);
+    background: var(--tailwind-zinc-800, #27272A);
+}
+
+.moodBtn:last-child {
+    margin-bottom: 0;
+}
+
